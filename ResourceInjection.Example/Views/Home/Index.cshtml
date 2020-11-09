@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@for (int i = 0; i < 10; i++)
+{
+    <inject-resource render-name="Render1" name="test">
+        <script>
+            var a = @i;
+            alert(a);
+        </script>
+    </inject-resource>
+}
+
+<inject-resource render-name="Render2" name="test">
+    <h1>Injected resource1</h1>
+</inject-resource>
