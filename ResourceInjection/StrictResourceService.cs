@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
+using ldy985.ResourceInjection.Abstracts;
 using Microsoft.AspNetCore.Html;
 
 namespace ldy985.ResourceInjection
 {
+    /// <inheritdoc />
     public class StrictResourceService : IResourceService
     {
         private readonly Dictionary<string, Dictionary<string, IHtmlContent>> _store = new Dictionary<string, Dictionary<string, IHtmlContent>>();

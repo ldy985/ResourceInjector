@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceInjection", "ResourceInjection\ResourceInjection.csproj", "{04AE648E-0E15-4ACD-86FA-776A64D53913}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceInjection.Example", "ResourceInjection.Example\ResourceInjection.Example.csproj", "{6108BEDA-6617-4E31-AF35-F7AE920C4EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceInjection.Example", "ResourceInjection.Example\ResourceInjection.Example.csproj", "{6108BEDA-6617-4E31-AF35-F7AE920C4EED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D514BBD4-69B2-4972-AFA4-5A25F8624BB5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

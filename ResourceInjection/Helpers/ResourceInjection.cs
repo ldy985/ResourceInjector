@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using ldy985.ResourceInjection.Abstracts;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace ldy985.ResourceInjection
+namespace ldy985.ResourceInjection.Helpers
 {
+    /// <summary>Helper to add the services to the service collection.</summary>
     public static class ResourceInjection
     {
         /// <summary>Adds the resource injection service</summary>
