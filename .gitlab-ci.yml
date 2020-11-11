@@ -18,7 +18,7 @@ build:
 publish:
   stage: publish
   only:
-    - nuget
+    - master
   script:
   - cd $CI_PROJECT_DIR/Build/
   - dotnet nuget push *.nupkg -s https://api.nuget.org/v3/index.json -k $NUGET_KEY
