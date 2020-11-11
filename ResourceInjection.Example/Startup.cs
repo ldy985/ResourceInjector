@@ -1,3 +1,4 @@
+using ldy985.ResourceInjection.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
